@@ -119,6 +119,7 @@ int main(void)
     /* USER CODE BEGIN 3 */
       HAL_GPIO_TogglePin(GPIOF,GPIO_PIN_10);
       LED_Inverse();
+      printf("Hello!\r\n");
       HAL_Delay(500);
   }
   /* USER CODE END 3 */
