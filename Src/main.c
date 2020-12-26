@@ -120,6 +120,7 @@ int main(void)
       HAL_GPIO_TogglePin(GPIOF,GPIO_PIN_10);
       LED_Inverse();
       printf("Hello!\r\n");
+      printf("This is my First GitHub project!\r\n");
       HAL_Delay(500);
   }
   /* USER CODE END 3 */
